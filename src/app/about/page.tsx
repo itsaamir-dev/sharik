@@ -17,9 +17,20 @@ import jainUniversityLogo from "@/assets/logos/jain-university.jpeg";
 
 export const metadata: Metadata = {
     title: "About Sharik Rasool | SEO Expert & Link Builder",
-    description: "Learn about Sharik Rasool's 6+ years of experience in SEO strategy and link building. MBA in Digital Marketing with proven results for SaaS and tech companies.",
-    alternates: {
-        canonical: "/about",
+    description:
+        "Learn about Sharik Rasool's 6+ years of experience in SEO strategy and link building. MBA in Digital Marketing with proven results for SaaS and tech companies.",
+    alternates: { canonical: "https://sharikrasool.com/about" },
+    openGraph: {
+        title: "About Sharik Rasool | SEO Expert & Link Builder",
+        description:
+            "6+ years of experience in SEO strategy and link building. MBA in Digital Marketing with proven results for SaaS and tech companies.",
+        url: "https://sharikrasool.com/about",
+        type: "profile",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "About Sharik Rasool | SEO Expert & Link Builder",
+        description: "6+ years of experience in SEO strategy and link building for SaaS companies.",
     },
 };
 

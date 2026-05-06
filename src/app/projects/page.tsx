@@ -17,9 +17,20 @@ import rayobyteLogo from "@/assets/logos/rayobyte.png";
 
 export const metadata: Metadata = {
     title: "SEO Projects & Case Studies | Sharik Rasool",
-    description: "Explore successful SEO and link building projects with measurable results. See how strategic SEO has driven DR growth, traffic increases, and ranking improvements.",
-    alternates: {
-        canonical: "/projects",
+    description:
+        "Explore successful SEO and link building projects with measurable results. See how strategic SEO has driven DR growth, traffic increases, and ranking improvements.",
+    alternates: { canonical: "https://sharikrasool.com/projects" },
+    openGraph: {
+        title: "SEO Projects & Case Studies | Sharik Rasool",
+        description:
+            "Real results: DR growth, 300%+ traffic increases, and 500+ high-quality backlinks built for SaaS and tech companies.",
+        url: "https://sharikrasool.com/projects",
+        type: "website",
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "SEO Projects & Case Studies | Sharik Rasool",
+        description: "Real SEO results: DR growth, 300%+ traffic increases for SaaS companies.",
     },
 };
 

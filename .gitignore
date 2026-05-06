@@ -13,8 +13,23 @@ dist-ssr
 *.local
 
 # Environment variables
-
 .env
 .env.local
 .env.*.local
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# OS
+.DS_Store
+
+# Uploaded files (user-generated content)
+public/uploads/
+
+# Claude memory
+.claude/
 

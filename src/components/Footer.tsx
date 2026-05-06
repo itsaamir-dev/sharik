@@ -114,12 +114,14 @@ export function Footer() {
           <p className="text-sm text-muted-foreground">
             © {currentYear} Sharik Rasool. All rights reserved.
           </p>
-          <Link
-            href="/sitemap"
+          <a
+            href="/sitemap.xml"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-sm text-muted-foreground hover:text-foreground transition-colors"
           >
             Sitemap
-          </Link>
+          </a>
         </div>
       </div>
     </footer>
