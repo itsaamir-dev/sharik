@@ -10,6 +10,7 @@
    Dark mode default with light mode toggle
 */
 
+
 @layer base {
   :root {
     /* Light mode - Clean, professional */
